@@ -1,0 +1,2 @@
+pylint --load-plugins=pylint_odoo -e odoolint --rcfile=~/work/oca/maintainer-quality-tools/travis/cfg/travis_run_pylint_pr.cfg $1
+flake8 $1 --exclude=__init__.py

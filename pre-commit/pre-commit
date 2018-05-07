@@ -1,0 +1,6 @@
+#!/bin/sh
+
+odoo-lint odoo/local-src/ && odoo-lint odoo/songs/
+
+odoo-lint specific-parts/specific-addons/
+
